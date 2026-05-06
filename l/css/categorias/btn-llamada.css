@@ -1,0 +1,31 @@
+/*Botón de llamada*/
+.btn-llamada {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.btn-llamada button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  background-color: var(--verde-oliva);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+  .btn-llamada button {
+    width: 400px;
+    height: 80px;
+    font-size: 24px;
+  }
+}
+/*Fin del botón*/

@@ -1,0 +1,40 @@
+/*Elementos del hero text*/
+.hero-text {
+  width: 100%;
+  padding: 10px;
+  min-height: 300px;
+  color: var(--rosa-profundo);
+  text-align: center;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text button {
+  margin-top: 10px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: var(--rosa-profundo);
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: var(--verde-oliva);
+  color: white;
+}
+
+/*Ajuste de imagen de portada*/
+.ajust-img-port {
+  background-color: var(--rosa-suave);
+}
+.ajust-img-port img {
+  border-radius: 20px;
+}
+/*Fin de ajuste*/
+/*Fin del hero text*/

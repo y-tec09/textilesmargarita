@@ -1,0 +1,22 @@
+/*Barra de progreso*/
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+#myBar {
+  width: 1%;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #c766f1;
+}
+@media screen and (min-width: 800px) {
+  #myProgress {
+    width: 60%;
+
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+/*Fin de barra de progreso*/

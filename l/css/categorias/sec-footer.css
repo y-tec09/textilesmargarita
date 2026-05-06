@@ -1,0 +1,21 @@
+/*Info footer*/
+.footer {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 20px;
+  background-color: var(--verde-oliva);
+}
+.info-neg {
+  padding: 10px;
+  color: #fff;
+
+  display: flex;
+}
+.info-neg img {
+  width: 60px;
+}
+.info-neg p {
+  line-height: 30px;
+  margin-left: 10px;
+}
+/*Fin de info*/

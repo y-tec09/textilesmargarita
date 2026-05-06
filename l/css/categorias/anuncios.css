@@ -1,0 +1,38 @@
+/*Elementos de anuncios*/
+.polaroid {
+  width: 100%;
+  height: auto;
+}
+.polaroid img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.polaroid > .container {
+  width: 100%;
+  height: auto;
+}
+.polaroid > .container h3 {
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 800px) {
+  .polariod {
+    display: flex;
+    justify-content: space-between;
+  }
+  .polaroid img {
+    width: 50%;
+  }
+  .polaroid > .container {
+    width: 50%;
+  }
+}
+/*Fin de elementos*/
+
+/*Limpieza de texto de anuncios*/
+.limpieza ul {
+  margin-top: 20px;
+}
+.limpieza ul li {
+  list-style: none;
+}
+/*Fin de limpieza*/

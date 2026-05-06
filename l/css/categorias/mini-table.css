@@ -1,0 +1,38 @@
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  background: #FBEAD6; /* tono base suave */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+.mini-table thead {
+  background: #C87D87; /* encabezado con contraste */
+  color: #fff;
+}
+
+.mini-table th, .mini-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.mini-table tbody tr:nth-child(even) {
+  background: #F0C4CB; /* filas alternadas */
+}
+
+.mini-table tbody tr:hover {
+  background: #E5BCA9; /* hover suave */
+  transition: background 0.3s ease;
+}
+
+.mini-table th {
+  color: #fff;
+}
+
+.mini-table td {
+  color: #6B7556; /* texto en verde sobrio */
+}

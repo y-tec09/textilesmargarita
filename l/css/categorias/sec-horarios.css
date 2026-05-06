@@ -1,0 +1,58 @@
+/*card del horario*/
+.card-horario {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.card-horario img {
+  width: 100%;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered {
+  color: #c766f1;
+  border-bottom: 1px solid #c766f1;
+}
+.sec-mapa {
+  padding: 10px;
+}
+@media screen and (min-width: 800px) {
+  .card-horario {
+    width: 100%;
+  }
+  .card-hora {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/*Fin del card horario*/

@@ -1,0 +1,32 @@
+/*Sección de mapa*/
+.mapa {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.sec-mapa h3 {
+  color: var(--rosa-profundo);
+  font-family: var(--fuente-secundaria);
+  font-size: 30px;
+  padding: 10px;
+}
+.sec-mapa article {
+  color: var(--verde-oliva);
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  padding: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .mapa {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sec-mapa {
+    width: 50%;
+  }
+}
+/*Fin de sección de mapa*/
